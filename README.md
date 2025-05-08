@@ -1,0 +1,8 @@
+# Pulsar-Timing-MeerKAT
+Timing Pulsars with the Thousand Pulsar Array on MeerKAT
+
+**ABSTRACT**
+
+Pulsars are rotating neutron stars with rotational periods ranging from 1ms – 15s. This study employs the TEMPO2 package to establish coherent timing solutions for regularly observed pulsars within the MeerTime Thousand-Pulsar-Array. The central focus of this dissertation is to explore variations in the pulsars' spin-down rate by analyzing the obtained timing residuals. Employing two distinct methodologies - Bayesian and fitwaves analysis, the latter being a novel addition to the study - we delve into the variations in spin-down rate. All timing observations originate from the Lovell telescope at the Jodrell Bank observatory (JBO) and the MeerKAT interferometer. By merging the JBO and MeerKAT data, a third dataset is created, and its contribution is assessed in estimating spin-down rate variations through both methodologies. Comparative analysis aims to identify which dataset more effectively constrains spin-down rate variations. The results reveal consistent spin-down rate variations for the majority of pulsars between the two techniques. However, challenges arise in cases with limited observations or significant timing residual uncertainties along with irregularly sampled data, particularly impacting the fitwaves method. The creation of the third dataset has proven to be valuable. However, caution is advised in the utilization of data with high uncertainties, as it is preferable to exclude such data before conducting the analysis.
+
+_Key Words_: Pulsar Timing; Bayesian Inference; FITWAVES; Spin-down rate variations; MeerTime; Thousand-Pulsar-Array_
