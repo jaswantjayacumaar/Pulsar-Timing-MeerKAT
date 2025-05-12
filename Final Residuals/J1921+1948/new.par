@@ -1,0 +1,29 @@
+PSRJ           J1921+1948
+RAJ            19:21:03.7990000            
+DECJ           +19:48:44.70000             
+F0             1.2179735453136266146     1  0.00000000001697990991   
+F1             -1.3272683516007656262e-15 1  1.9603263795670282406e-18
+F2             1.6999999209234930725e-27    5.9999997209064461383e-28
+PEPOCH         59101                       
+POSEPOCH       59101                       
+DMEPOCH        59101                       
+DM             153.85000715642420983        0.05000000232577972370   
+START          58774.615910701673503       
+FINISH         59428.773172997198753       
+TZRMJD         59090.81731273285563        
+TZRFRQ         1273.5765140000000883    
+TZRSITE        meerkat   
+TRES           837.732      
+EPHVER         5                           
+NE_SW          4                           
+CLK            TT(TAI)
+UNITS          TCB
+TIMEEPH        IF99
+DILATEFREQ     Y
+PLANET_SHAPIRO Y
+T2CMETHOD      IAU2000B
+CORRECT_TROPOSPHERE  Y
+EPHEM          DE440
+NITS           1
+NTOA           18
+CHI2R          -0.0002 15

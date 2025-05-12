@@ -1,0 +1,968 @@
+Script started on Fri 22 Oct 2021 11:52:19 BST
+[?1034h[36mmkeith[0m@[33mhulk[0m$ cp ./2021-06-03-21:00:34/3/1284/timing/J1801-2920.par .
+[36mmkeith[0m@[33mhulk[0m$ ls
+2019-09-29-13:08:49  2020-05-30-23:44:53  2020-10-17-16:19:33  2021-03-02-03:12:01  2021-08-02-17:49:05
+2019-12-16-10:45:51  2020-06-25-21:50:15  2020-11-16-13:15:21  2021-04-07-00:58:34  combined.tim
+2020-02-24-03:32:12  2020-07-25-18:17:17  2020-12-12-08:16:21  2021-05-03-23:07:04  J1801-2920.par
+2020-03-29-04:09:18  2020-08-23-16:30:04  2021-01-11-06:57:19  2021-06-03-21:00:34  time.log
+2020-05-08-00:55:31  2020-09-19-14:38:20  2021-02-07-08:54:44  2021-07-04-19:03:04
+[36mmkeith[0m@[33mhulk[0m$ tm[Kempo2 -gr plk -f J1801-2920.par ca[Kombined.tim 
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under conditions of GPL license.
+
+Looking for /packages/pulsarsoft/versions/2021-06-18/share/tempo2/plugins//plk_x86_64_nitrogen_plug.t2
+Graphical Interface: plk emulator
+Authors:             George Hobbs, J. Verbiest (v4. 3 Aug 2007)
+CVS Version:         $Revision: 1.61 $
+ --- type 'h' for help information
+[0m[1m[tempo2Util.C:396] [0m[0;35mWarning: [0m[MISC1] Unknown parameter in par file:  RM
+[0m[1m[tempo2Util.C:401] [0m[0;35mWarning: [0m[DUP1] duplicated warnings have been suppressed.
+[0m[1m[tempo2Util.C:396] [0m[0;35mWarning: [0m[PAR2] Have not set a DM epoch. The period epoch will be used instead. J1801-2920.par
+[0m[1m[tempo2Util.C:396] [0m[0;35mWarning: [0m[CLK10] MJD is outside of UT1 table range  (MJD 59428.743707)
+[TKfit.C:273] QR nparams=1 nconst=0 ndata=20
+
+
+Results for PSR J1801-2920
+
+
+RMS pre-fit residual = 68094.161 (us), RMS post-fit residual = 68094.161 (us)
+Number of fit parameters: 1
+Number of points in fit = 20
+Offset: -0 0.0156219 offset_e*sqrt(n) = 0.0698631 n = 20
+
+
+PARAMETER       Pre-fit                   Post-fit                  Uncertainty   Difference   Fit
+---------------------------------------------------------------------------------------------------
+RAJ (rad)       4.72015824082789          4.72015824082789          0             0             N
+RAJ (hms)       18:01:46.835              18:01:46.835              0             0            
+DECJ (rad)      -0.512150385332578        -0.512150385332578        0             0             N
+DECJ (dms)      -29:20:38.6               -29:20:38.6               0             0            
+F0 (s^-1)       0.924292603138            0.924292603138            0             0             N
+F1 (s^-2)       -2.81335e-15              -2.81335e-15              0             0             N
+F2 (s^-3)       -1.86e-26                 -1.86e-26                 0             0             N
+PEPOCH (MJD)    50549                     50549                     0             0             N
+POSEPOCH (MJD)  50549                     50549                     0             0             N
+DMEPOCH (MJD)   50549                     50549                     0             0             N
+DM (cm^-3 pc)   125.613                   125.613                   0             0             N
+START (MJD)     0                         58755.5489235618          0             58756         N
+FINISH (MJD)    0                         59428.7437073034          0             59429         N
+TZRMJD          0                         59084.6888504391          0             59085         N
+TZRFRQ (MHz)    0                         1282.940166               0             1282.9        N
+TZRSITE         meerkat                  
+TRES            0                         68094.1610072649          0             68094         N
+EPHVER          TEMPO2                    TEMPO2                    0             0             N
+DM_SERIES       TAYLOR                   
+---------------------------------------------------------------------------------------------------
+
+Derived parameters:
+
+P0 (s)      = 1.08190847422664          0            
+P1          = 3.2930991718767e-15       0            
+tau_c (Myr) = 5.2089
+bs (G)      = 1.9101e+12
+
+Braking index derived from F0,F1,F2 -2172.075
+Total time span = 673.195 days = 1.843 years
+
+Tempo2 usage
+Units:                 TDB (tempo1)
+Time ephemeris:        IF99 (tempo2)
+Troposphere corr.?     No (tempo1)
+Dilate freq?           Yes (tempo2)
+Electron density (1AU) 4
+Solar system ephem     DE405
+Time scale             TT(TAI)
+Binary model           NONE
+[0m[0;35mNotice:[0m There were 4 warnings. Summaries are shown below, check logs for full details.
+[0m[1mWarning #1:[0m [MISC1] Unknown parameter in par file:  RM
+[0m[1mWarning #2:[0m [DUP1] duplicated warnings have been suppressed.
+[0m[1mWarning #3:[0m [PAR2] Have not set a DM epoch. The period epoch will be used instead. J1801-2920.par
+[0m[1mWarning #4:[0m [CLK10] MJD is outside of UT1 table range  (MJD 59428.743707)
+Setting offset in menu to be 0
+Setting offset in menu to be 0
+Setting offset in menu to be 0
+Setting offset in menu to be 0
+Redoing the fit -1 (58755.5 0 1)
+[TKfit.C:273] QR nparams=2 nconst=0 ndata=20
+
+
+Results for PSR J1801-2920
+
+
+RMS pre-fit residual = 68094.161 (us), RMS post-fit residual = 1069.918 (us)
+Number of fit parameters: 2
+Number of points in fit = 20
+Offset: 3.09102 0.0114516 offset_e*sqrt(n) = 0.051213 n = 20
+
+
+PARAMETER       Pre-fit                   Post-fit                  Uncertainty   Difference   Fit
+---------------------------------------------------------------------------------------------------
+RAJ (rad)       4.72015824082789          4.72015824082789          0             0             N
+RAJ (hms)       18:01:46.835              18:01:46.835              0             0            
+DECJ (rad)      -0.512150385332578        -0.512150385332578        0             0             N
+DECJ (dms)      -29:20:38.6               -29:20:38.6               0             0            
+F0 (s^-1)       0.924292603138            0.924292606988565         1.4262e-11    3.8506e-09    Y
+F1 (s^-2)       -2.81335e-15              -2.81335e-15              0             0             N
+F2 (s^-3)       -1.86e-26                 -1.86e-26                 0             0             N
+PEPOCH (MJD)    50549                     50549                     0             0             N
+POSEPOCH (MJD)  50549                     50549                     0             0             N
+DMEPOCH (MJD)   50549                     50549                     0             0             N
+DM (cm^-3 pc)   125.613                   125.613                   0             0             N
+START (MJD)     58755.5489235618          58755.5489235618          0             0             N
+FINISH (MJD)    59428.7437073034          59428.7437073034          0             0             N
+TZRMJD          59084.6888504391          59084.6888506554          0             2.1632e-07    N
+TZRFRQ (MHz)    1282.940166               1282.940166               0             0             N
+TZRSITE         meerkat                  
+TRES            68094.1610072649          1069.91821873592          0             -67024        N
+EPHVER          TEMPO2                    TEMPO2                    0             0             N
+DM_SERIES       TAYLOR                   
+---------------------------------------------------------------------------------------------------
+
+Derived parameters:
+
+P0 (s)      = 1.08190846971945          1.6694e-11   
+P1          = 3.29309914443887e-15      1.0163e-25   
+tau_c (Myr) = 5.2089
+bs (G)      = 1.9101e+12
+
+Braking index derived from F0,F1,F2 -2172.075
+Total time span = 673.195 days = 1.843 years
+
+Tempo2 usage
+Units:                 TDB (tempo1)
+Time ephemeris:        IF99 (tempo2)
+Troposphere corr.?     No (tempo1)
+Dilate freq?           Yes (tempo2)
+Electron density (1AU) 4
+Solar system ephem     DE405
+Time scale             TT(TAI)
+Binary model           NONE
+
+[0m[1m[textOutput.C:1624] [0m[0;35mWarning: [0mThere are output parameters with very high covariance
+                  F0        param_ZERO(0) -0.99976
+[0m[0;35mNotice:[0m There were 1 warnings. Summaries are shown below, check logs for full details.
+[0m[1mWarning #1:[0m There are output parameters with very high covariance
+Setting offset in menu to be 0
+Setting offset in menu to be 0
+Redoing the fit -1 (58755.5 0 1)
+[TKfit.C:273] QR nparams=3 nconst=0 ndata=20
+
+
+Results for PSR J1801-2920
+
+
+RMS pre-fit residual = 1069.918 (us), RMS post-fit residual = 158.435 (us)
+Number of fit parameters: 3
+Number of points in fit = 20
+Offset: -2.15678 0.0783437 offset_e*sqrt(n) = 0.350364 n = 20
+
+
+PARAMETER       Pre-fit                   Post-fit                  Uncertainty   Difference   Fit
+---------------------------------------------------------------------------------------------------
+RAJ (rad)       4.72015824082789          4.72015824082789          0             0             N
+RAJ (hms)       18:01:46.835              18:01:46.835              0             0            
+DECJ (rad)      -0.512150385332578        -0.512150385332578        0             0             N
+DECJ (dms)      -29:20:38.6               -29:20:38.6               0             0            
+F0 (s^-1)       0.924292606988565         0.924292601595824         1.9585e-10    -5.3927e-09   Y
+F1 (s^-2)       -2.81335e-15              -2.80605951196507e-15     2.6476e-19    7.2905e-18    Y
+F2 (s^-3)       -1.86e-26                 -1.86e-26                 0             0             N
+PEPOCH (MJD)    50549                     50549                     0             0             N
+POSEPOCH (MJD)  50549                     50549                     0             0             N
+DMEPOCH (MJD)   50549                     50549                     0             0             N
+DM (cm^-3 pc)   125.613                   125.613                   0             0             N
+START (MJD)     58755.5489235618          58755.5489235618          0             0             N
+FINISH (MJD)    59428.7437073034          59428.7437073034          0             0             N
+TZRMJD          59084.6888506554          59084.6888506676          0             1.2209e-08    N
+TZRFRQ (MHz)    1282.940166               1282.940166               0             0             N
+TZRSITE         meerkat                  
+TRES            1069.91821873592          158.434583017637          0             -911.48       N
+EPHVER          TEMPO2                    TEMPO2                    0             0             N
+DM_SERIES       TAYLOR                   
+---------------------------------------------------------------------------------------------------
+
+Derived parameters:
+
+P0 (s)      = 1.08190847603179          2.2925e-10   
+P1          = 3.28456547742897e-15      3.099e-19    
+tau_c (Myr) = 5.2225
+bs (G)      = 1.9076e+12
+
+Braking index derived from F0,F1,F2 -2183.377
+Total time span = 673.195 days = 1.843 years
+
+Tempo2 usage
+Units:                 TDB (tempo1)
+Time ephemeris:        IF99 (tempo2)
+Troposphere corr.?     No (tempo1)
+Dilate freq?           Yes (tempo2)
+Electron density (1AU) 4
+Solar system ephem     DE405
+Time scale             TT(TAI)
+Binary model           NONE
+
+[0m[1m[textOutput.C:1624] [0m[0;35mWarning: [0mThere are output parameters with very high covariance
+                  F0        param_ZERO(0) -0.99994
+                  F1        param_ZERO(0) +0.99975
+                  F1                   F0 -0.99994
+[0m[0;35mNotice:[0m There were 1 warnings. Summaries are shown below, check logs for full details.
+[0m[1mWarning #1:[0m There are output parameters with very high covariance
+Setting offset in menu to be 0
+
+
+Results for PSR J1801-2920
+
+
+RMS pre-fit residual = 1069.918 (us), RMS post-fit residual = 158.435 (us)
+Number of fit parameters: 3
+Number of points in fit = 20
+Offset: -2.15678 0.0783437 offset_e*sqrt(n) = 0.350364 n = 20
+
+
+PARAMETER       Pre-fit                   Post-fit                  Uncertainty   Difference   Fit
+---------------------------------------------------------------------------------------------------
+RAJ (rad)       4.72015824082789          4.72015824082789          0             0             N
+RAJ (hms)       18:01:46.835              18:01:46.835              0             0            
+DECJ (rad)      -0.512150385332578        -0.512150385332578        0             0             N
+DECJ (dms)      -29:20:38.6               -29:20:38.6               0             0            
+F0 (s^-1)       0.924292606988565         0.924292601595824         1.9585e-10    -5.3927e-09   Y
+F1 (s^-2)       -2.81335e-15              -2.80605951196507e-15     2.6476e-19    7.2905e-18    Y
+F2 (s^-3)       -1.86e-26                 -1.86e-26                 0             0             N
+PEPOCH (MJD)    50549                     50549                     0             0             N
+POSEPOCH (MJD)  50549                     50549                     0             0             N
+DMEPOCH (MJD)   50549                     50549                     0             0             N
+DM (cm^-3 pc)   125.613                   125.613                   0             0             N
+START (MJD)     58755.5489235618          58755.5489235618          0             0             N
+FINISH (MJD)    59428.7437073034          59428.7437073034          0             0             N
+TZRMJD          59084.6888506554          59084.6888506676          0             1.2209e-08    N
+TZRFRQ (MHz)    1282.940166               1282.940166               0             0             N
+TZRSITE         meerkat                  
+TRES            1069.91821873592          158.434583017637          0             -911.48       N
+EPHVER          TEMPO2                    TEMPO2                    0             0             N
+DM_SERIES       TAYLOR                   
+---------------------------------------------------------------------------------------------------
+
+Derived parameters:
+
+P0 (s)      = 1.08190847603179          2.2925e-10   
+P1          = 3.28456547742897e-15      3.099e-19    
+tau_c (Myr) = 5.2225
+bs (G)      = 1.9076e+12
+
+Braking index derived from F0,F1,F2 -2183.377
+Total time span = 673.195 days = 1.843 years
+
+Tempo2 usage
+Units:                 TDB (tempo1)
+Time ephemeris:        IF99 (tempo2)
+Troposphere corr.?     No (tempo1)
+Dilate freq?           Yes (tempo2)
+Electron density (1AU) 4
+Solar system ephem     DE405
+Time scale             TT(TAI)
+Binary model           NONE
+In here writing a new parameter file: 
+Enter filename for new parameter file new.par
+
+[0m[1m[textOutput.C:1624] [0m[0;35mWarning: [0mThere are output parameters with very high covariance
+                  F0        param_ZERO(0) -0.99994
+                  F1        param_ZERO(0) +0.99975
+                  F1                   F0 -0.99994
+[0m[0;35mNotice:[0m There were 1 warnings. Summaries are shown below, check logs for full details.
+[0m[1mWarning #1:[0m There are output parameters with very high covariance
+[36mmkeith[0m@[33mhulk[0m$ ls
+2019-09-29-13:08:49  2020-05-30-23:44:53  2020-10-17-16:19:33  2021-03-02-03:12:01  2021-08-02-17:49:05
+2019-12-16-10:45:51  2020-06-25-21:50:15  2020-11-16-13:15:21  2021-04-07-00:58:34  combined.tim
+2020-02-24-03:32:12  2020-07-25-18:17:17  2020-12-12-08:16:21  2021-05-03-23:07:04  J1801-2920.par
+2020-03-29-04:09:18  2020-08-23-16:30:04  2021-01-11-06:57:19  2021-06-03-21:00:34  new.par
+2020-05-08-00:55:31  2020-09-19-14:38:20  2021-02-07-08:54:44  2021-07-04-19:03:04  time.log
+[36mmkeith[0m@[33mhulk[0m$ more new.par 
+PSRJ           J1801-2920
+RAJ            18:01:46.835                
+DECJ           -29:20:38.6                 
+F0             0.92429260159582404252    1  0.00000000019585101601   
+F1             -2.8060595119650719097e-15 1  2.6475621967779676939e-19
+F2             -1.86e-26                    1.6e-27                  
+PEPOCH         50549                       
+POSEPOCH       50549                       
+DMEPOCH        50549                       
+DM             125.613                      0.01400000000000000000   
+START          58755.548923561797078       
+FINISH         59428.743707303371433       
+TZRMJD         59084.688850667632231       
+TZRFRQ         1282.9401660000000902    
+TZRSITE        meerkat   
+TRES           158.435      
+EPHVER         5                           
+CLK            TT(TAI)
+UNITS          TDB
+TIMEEPH        IF99
+DILATEFREQ     Y
+PLANET_SHAPIRO Y
+T2CMETHOD      TEMPO
+NE_SW          4.000
+CORRECT_TROPOSPHERE  N
+EPHEM          DE405
+NITS           1
+NTOA           20
+CHI2R          0.0000 17
+[36mmkeith[0m@[33mhulk[0m$ [K[36mmkeith[0m@[33mhulk[0m$ [K[36mmkeith[0m@[33mhulk[0m$ [K[36mmkeith[0m@[33mhulk[0m$ [K[36mmkeith[0m@[33mhulk[0m$ [K[36mmkeith[0m@[33mhulk[0m$ [K[36mmkeith[0m@[33mhulk[0m$ [K[36mmkeith[0m@[33mhulk[0m$ [K[36mmkeith[0m@[33mhulk[0m$ [K[36mmkeith[0m@[33mhulk[0m$ [K[36mmkeith[0m@[33mhulk[0m$ te [Kmpo2 -gr transform -f new.par tcb.par
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under conditions of GPL license.
+
+Looking for /packages/pulsarsoft/versions/2021-06-18/share/tempo2/plugins//transform_x86_64_nitrogen_plug.t2
+Graphical Interface: transform
+Author:              George Hobbs
+Version:             1
+Transforms parameter files from old format to new format
+ERROR [FILE3]: Unable to open parfile -f for pulsar 0
+[36mmkeith[0m@[33mhulk[0m$ tempo2 -gr transform -f new.par tcb.par[1P[1P[1P
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under conditions of GPL license.
+
+Looking for /packages/pulsarsoft/versions/2021-06-18/share/tempo2/plugins//transform_x86_64_nitrogen_plug.t2
+Graphical Interface: transform
+Author:              George Hobbs
+Version:             1
+Transforms parameter files from old format to new format
+[transform_plug.C:90] Transform from TDB to TCB(SI)
+
+
+Results for PSR J1801-2920
+
+
+RMS pre-fit residual = -nan (us), RMS post-fit residual = -nan (us)
+Number of fit parameters: 0
+Number of points in fit = 0
+Offset: 0 0 offset_e*sqrt(n) = 0 n = 0
+
+
+PARAMETER       Pre-fit                   Post-fit                  Uncertainty   Difference   Fit
+---------------------------------------------------------------------------------------------------
+RAJ (rad)       4.72015824082789          4.72015824082789          0             0             N
+RAJ (hms)       18:01:46.835               18:01:46.8350000         0             0            
+DECJ (rad)      -0.512150385332578        -0.512150385332578        0             0             N
+DECJ (dms)      -29:20:38.6               -29:20:38.60000           0             0            
+F0 (s^-1)       0.924292587264484         0.924292587264484         0             0             Y
+F1 (s^-2)       -2.80605942494806e-15     -2.80605942494806e-15     0             0             Y
+F2 (s^-3)       -1.859999913481e-26       -1.859999913481e-26       0             0             N
+PEPOCH (MJD)    50549.000114816           50549.000114816           0             0             N
+POSEPOCH (MJD)  50549.000114816           50549.000114816           0             0             N
+DMEPOCH (MJD)   50549                     50549                     0             0             N
+DM (cm^-3 pc)   125.613005842963          125.613005842963          0             0             N
+START (MJD)     58755.5491656219          58755.5491656219          0             0             N
+FINISH (MJD)    59428.7439598015          59428.7439598015          0             0             N
+TZRMJD          59084.6890978312          59084.6890978312          0             0             N
+TZRFRQ (MHz)    1282.94014610776          1282.94014610776          0             0             N
+TZRSITE         meerkat                  
+TRES            158.435                   -nan                      0             -nan          N
+EPHVER          TEMPO2                    TEMPO2                    0             0             N
+NE_SW (cm^-3)   4                         4                         0             0             N
+DM_SERIES       TAYLOR                   
+---------------------------------------------------------------------------------------------------
+
+Derived parameters:
+
+P0 (s)      = 1.081908492807            0            
+P1          = 3.28456547742897e-15      0            
+tau_c (Myr) = 5.2225
+bs (G)      = 1.9076e+12
+
+Braking index derived from F0,F1,F2 -2183.377
+Total time span = 0.000 days = 0.000 years
+
+Tempo2 usage
+Units:                 TCB (tempo2)
+Time ephemeris:        IF99 (tempo2)
+Troposphere corr.?     Yes (tempo2)
+Dilate freq?           Yes (tempo2)
+Electron density (1AU) 4
+Solar system ephem     DE405
+Time scale             TT(TAI)
+Binary model           NONE
+In here writing a new parameter file: tcb.par
+[36mmkeith[0m@[33mhulk[0m$ more tcb.par 
+PSRJ           J1801-2920
+RAJ             18:01:46.8350000           
+DECJ           -29:20:38.60000             
+F0             0.92429258726448454322    1 
+F1             -2.8060594249480577305e-15 1 
+F2             -1.8599999134809983029e-26    1.5999999255750523036e-27
+PEPOCH         50549.000114815984805       
+POSEPOCH       50549.000114815984805       
+DMEPOCH        50549                       
+DM             125.61300584296336866        0.01400000065121832264   
+START          58755.549165621947161       
+FINISH         59428.743959801539877       
+TZRMJD         59084.689097831162027       
+TZRFRQ         1282.9401461077592084    
+TZRSITE        meerkat   
+TRES           -nan         
+EPHVER         5                           
+NE_SW          4                           
+CLK            TT(TAI)
+UNITS          TCB
+TIMEEPH        IF99
+DILATEFREQ     Y
+PLANET_SHAPIRO Y
+T2CMETHOD      IAU2000B
+CORRECT_TROPOSPHERE  Y
+EPHEM          DE405
+NITS           1
+NTOA           0
+CHI2R          -nan 0
+[36mmkeith[0m@[33mhulk[0m$ vim tcb.par 
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H[1;34r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[34;1H"tcb.par" 29L, 1012C[>c[1;1HPSRJ[11CJ1801-2920
+RAJ[13C18:01:46.8350000[34m~~~~~~~~~~~[m
+DECJ[11C-29:20:38.60000[34m~~~~~~~~~~~~~[m
+F0[13C0.92429258726448454322    1[34m~[m
+F1[13C-2.8060594249480577305e-15 1[34m~[m
+F2[13C-1.8599999134809983029e-26    1.5999999255750523036e-27
+PEPOCH[9C50549.000114815984805[34m~~~~~~~[m
+POSEPOCH[7C50549.000114815984805[34m~~~~~~~[m
+DMEPOCH[8C50549[34m~~~~~~~~~~~~~~~~~~~~~~~[m
+DM[13C125.61300584296336866[8C0.01400000065121832264[34m~~~[m
+START[10C58755.549165621947161[34m~~~~~~~[m
+FINISH[9C59428.743959801539877[34m~~~~~~~[m
+TZRMJD[9C59084.689097831162027[34m~~~~~~~[m
+TZRFRQ[9C1282.9401461077592084[34m~~~~[m
+TZRSITE[8Cmeerkat[34m~~~[m
+TRES[11C-nan[34m~~~~~~~~~[m
+EPHVER[9C5[34m~~~~~~~~~~~~~~~~~~~~~~~~~~~[m
+NE_SW[10C4[34m~~~~~~~~~~~~~~~~~~~~~~~~~~~[m
+CLK[12CTT(TAI)
+UNITS[10CTCB
+TIMEEPH[8CIF99
+DILATEFREQ     Y
+PLANET_SHAPIRO Y
+T2CMETHOD      IAU2000B
+CORRECT_TROPOSPHERE  Y
+EPHEM[10CDE405
+NITS[11C1
+NTOA[11C0
+CHI2R[10C-nan 0
+[94m~                                                                                                                     [31;1H~                                                                                                                     [32;1H~                                                                                                                     [33;1H~                                                                                                                     [m[34;101H1,1[11CAll[1;1H[?12l[?25h[?25l[34;101H2[2;1H[?12l[?25h[?25l[34;101H3[3;1H[?12l[?25h[?25l[34;101H29,1[29;1H[?12l[?25h[?25l[34;102H8[28;1H[?12l[?25h[?25l[34;102H7[27;1H[?12l[?25h[?25l[34;102H6[26;1H[?12l[?25h[?25l[34;102H5[25;1H[?12l[?25h[?25l[34;102H4[24;1H[?12l[?25h[?25l[34;102H3[23;1H[?12l[?25h[?25l[34;102H2[22;1H[?12l[?25h[?25l[34;102H1[21;1H[?12l[?25h[?25l[34;102H2[22;1H[?12l[?25h[?25l[34;102H3[23;1H[?12l[?25h[?25l[34;102H4[24;1H[?12l[?25h[?25l[34;102H5[25;1H[?12l[?25h[?25l[34;102H6[26;1H[?12l[?25h[?25l[34;1H[1m-- INSERT --[m[34;13H[K[34;101H26,21[9CAll[26;21H[?12l[?25h[?25l[26;20H[K[34;105H0[26;20H[?12l[?25h[?25l[26;19H[K[34;104H19[26;19H[?12l[?25h[?25l3[34;104H20[26;20H[?12l[?25h[?25l:[34;105H1[26;21H[?12l[?25h[?25lw[34;105H2[26;22H[?12l[?25h[?25lq[34;105H3[26;23H[?12l[?25h[?25l[26;22H[K[34;105H2[26;22H[?12l[?25h[?25l[26;20H[K[34;105H0[26;20H[?12l[?25h[34;1H[K[26;19H[?25l[34;101H26,19[9CAll[26;19H[?12l[?25h[?25l[34;101H[K[34;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"tcb.par" 29L, 1011C written
+[?1l>[?12l[?25h[?1049l[36mmkeith[0m@[33mhulk[0m$ ls $TEMPO2/clo[K[K[Kephemeris 
+DE200.1950.2050  DE418.1950.2050  DE435.1950.2050  DE440.1950.2050  TIMEEPH_short.te405
+DE405.1950.2050  DE421.1950.2050  DE436.1950.2050  INPOP06
+DE414.1960.2020  DE430.1950.2050  DE438.1950.2050  TDB.1950.2050
+[36mmkeith[0m@[33mhulk[0m$ vim tcb.par 
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H[1;34r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[34;1H"tcb.par" 29L, 1011C[>c[1;1HPSRJ[11CJ1801-2920
+RAJ[13C18:01:46.8350000[34m~~~~~~~~~~~[m
+DECJ[11C-29:20:38.60000[34m~~~~~~~~~~~~~[m
+F0[13C0.92429258726448454322    1[34m~[m
+F1[13C-2.8060594249480577305e-15 1[34m~[m
+F2[13C-1.8599999134809983029e-26    1.5999999255750523036e-27
+PEPOCH[9C50549.000114815984805[34m~~~~~~~[m
+POSEPOCH[7C50549.000114815984805[34m~~~~~~~[m
+DMEPOCH[8C50549[34m~~~~~~~~~~~~~~~~~~~~~~~[m
+DM[13C125.61300584296336866[8C0.01400000065121832264[34m~~~[m
+START[10C58755.549165621947161[34m~~~~~~~[m
+FINISH[9C59428.743959801539877[34m~~~~~~~[m
+TZRMJD[9C59084.689097831162027[34m~~~~~~~[m
+TZRFRQ[9C1282.9401461077592084[34m~~~~[m
+TZRSITE[8Cmeerkat[34m~~~[m
+TRES[11C-nan[34m~~~~~~~~~[m
+EPHVER[9C5[34m~~~~~~~~~~~~~~~~~~~~~~~~~~~[m
+NE_SW[10C4[34m~~~~~~~~~~~~~~~~~~~~~~~~~~~[m
+CLK[12CTT(TAI)
+UNITS[10CTCB
+TIMEEPH[8CIF99
+DILATEFREQ     Y
+PLANET_SHAPIRO Y
+T2CMETHOD      IAU2000B
+CORRECT_TROPOSPHERE  Y
+EPHEM[10CDE43
+NITS[11C1
+NTOA[11C0
+CHI2R[10C-nan 0
+[94m~                                                                                                                     [31;1H~                                                                                                                     [32;1H~                                                                                                                     [33;1H~                                                                                                                     [m[34;101H26,19[9CAll[26;19H[?12l[?25h[?25l[34;1H[1m-- INSERT --[m[34;13H[K[34;101H26,20[9CAll[26;20H[?12l[?25h[?25l[26;19H[K[34;104H19[26;19H[?12l[?25h[?25l4[34;104H20[26;20H[?12l[?25h[?25l0[34;105H1[26;21H[?12l[?25h[34;1H[K[26;20H[?25l[34;101H26,20[9CAll[26;20H[?12l[?25h[?25l[34;101H[K[34;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"tcb.par" 29L, 1012C written
+[?1l>[?12l[?25h[?1049l[36mmkeith[0m@[33mhulk[0m$ tempo2 -gr transform new.par tcb.par^C
+[36mmkeith[0m@[33mhulk[0m$ tempo2 -gr plk -f tcb.par combined.tim 
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under conditions of GPL license.
+
+Looking for /packages/pulsarsoft/versions/2021-06-18/share/tempo2/plugins//plk_x86_64_nitrogen_plug.t2
+Graphical Interface: plk emulator
+Authors:             George Hobbs, J. Verbiest (v4. 3 Aug 2007)
+CVS Version:         $Revision: 1.61 $
+ --- type 'h' for help information
+[tempo2Util.C:397] [TROP2] Assume standard atmospheric pressure (no data) for site meerkat at MJD 59428.7
+[tempo2Util.C:397] [TROP1] Assume zero zenith wet delay (no data) for site meerkat  at MJD 59428.7
+[0m[1m[tempo2Util.C:401] [0m[0;35mWarning: [0m[DUP1] duplicated warnings have been suppressed.
+[TKfit.C:273] QR nparams=3 nconst=0 ndata=20
+
+
+Results for PSR J1801-2920
+
+
+RMS pre-fit residual = 157.719 (us), RMS post-fit residual = 157.719 (us)
+Number of fit parameters: 3
+Number of points in fit = 20
+Offset: 0.000366256 0.0779897 offset_e*sqrt(n) = 0.34878 n = 20
+
+
+PARAMETER       Pre-fit                   Post-fit                  Uncertainty   Difference   Fit
+---------------------------------------------------------------------------------------------------
+RAJ (rad)       4.72015824082789          4.72015824082789          0             0             N
+RAJ (hms)       18:01:46.8350000          18:01:46.8350000          0             0            
+DECJ (rad)      -0.512150385332578        -0.512150385332578        0             0             N
+DECJ (dms)      -29:20:38.60000           -29:20:38.60000           0             0            
+F0 (s^-1)       0.924292587264484         0.924292587265407         1.9497e-10    9.2248e-13    Y
+F1 (s^-2)       -2.80605942494806e-15     -2.80606068106142e-15     2.6356e-19    -1.2561e-21   Y
+F2 (s^-3)       -1.859999913481e-26       -1.859999913481e-26       0             0             N
+PEPOCH (MJD)    50549.000114816           50549.000114816           0             0             N
+POSEPOCH (MJD)  50549.000114816           50549.000114816           0             0             N
+DMEPOCH (MJD)   50549                     50549                     0             0             N
+DM (cm^-3 pc)   125.613005842963          125.613005842963          0             0             N
+START (MJD)     58755.5491656219          58755.5489235618          0             -0.00024206   N
+FINISH (MJD)    59428.7439598015          59428.7437073034          0             -0.0002525    N
+TZRMJD          59084.6890978312          59084.6888506676          0             -0.00024716   N
+TZRFRQ (MHz)    1282.94014610776          1282.940166               0             1.9892e-05    N
+TZRSITE         meerkat                  
+TRES            -nan                      157.718616767937          0             -nan          N
+EPHVER          TEMPO2                    TEMPO2                    0             0             N
+NE_SW (cm^-3)   4                         4                         0             0             N
+DM_SERIES       TAYLOR                   
+---------------------------------------------------------------------------------------------------
+
+Derived parameters:
+
+P0 (s)      = 1.08190849280592          2.2821e-10   
+P1          = 3.28456694773575e-15      3.085e-19    
+tau_c (Myr) = 5.2225
+bs (G)      = 1.9076e+12
+
+Braking index derived from F0,F1,F2 -2183.375
+Total time span = 673.195 days = 1.843 years
+
+Tempo2 usage
+Units:                 TCB (tempo2)
+Time ephemeris:        IF99 (tempo2)
+Troposphere corr.?     Yes (tempo2)
+Dilate freq?           Yes (tempo2)
+Electron density (1AU) 4
+Solar system ephem     DE440
+Time scale             TT(TAI)
+Binary model           NONE
+
+[0m[1m[textOutput.C:1624] [0m[0;35mWarning: [0mThere are output parameters with very high covariance
+                  F0        param_ZERO(0) -0.99994
+                  F1        param_ZERO(0) +0.99975
+                  F1                   F0 -0.99994
+[0m[0;35mNotice:[0m There were 2 warnings. Summaries are shown below, check logs for full details.
+[0m[1mWarning #1:[0m [DUP1] duplicated warnings have been suppressed.
+[0m[1mWarning #2:[0m There are output parameters with very high covariance
+22[36mmkeith[0m@[33mhulk[0m$ 22^C
+[36mmkeith[0m@[33mhulk[0m$ pwd
+/local/scratch/mkeith/mt_timing/J1801-2920
+[36mmkeith[0m@[33mhulk[0m$ ls
+2019-09-29-13:08:49  2020-05-30-23:44:53  2020-10-17-16:19:33  2021-03-02-03:12:01  2021-08-02-17:49:05  time.log
+2019-12-16-10:45:51  2020-06-25-21:50:15  2020-11-16-13:15:21  2021-04-07-00:58:34  combined.tim
+2020-02-24-03:32:12  2020-07-25-18:17:17  2020-12-12-08:16:21  2021-05-03-23:07:04  J1801-2920.par
+2020-03-29-04:09:18  2020-08-23-16:30:04  2021-01-11-06:57:19  2021-06-03-21:00:34  new.par
+2020-05-08-00:55:31  2020-09-19-14:38:20  2021-02-07-08:54:44  2021-07-04-19:03:04  tcb.par
+[36mmkeith[0m@[33mhulk[0m$ more time.log 
+Script started on Fri 22 Oct 2021 11:52:19 BST
+[?1034h[36mmkeith[0m@[33mhulk[0m$ cp ./2021-06-03-21:00:34/3/1284/timing/J1801-2920.par .
+[36mmkeith[0m@[33mhulk[0m$ ls
+2019-09-29-13:08:49  2020-05-30-23:44:53  2020-10-17-16:19:33  2021-03-02-03:12:01  2021-08-02-17:49:05
+2019-12-16-10:45:51  2020-06-25-21:50:15  2020-11-16-13:15:21  2021-04-07-00:58:34  combined.tim
+2020-02-24-03:32:12  2020-07-25-18:17:17  2020-12-12-08:16:21  2021-05-03-23:07:04  J1801-2920.par
+2020-03-29-04:09:18  2020-08-23-16:30:04  2021-01-11-06:57:19  2021-06-03-21:00:34  time.log
+2020-05-08-00:55:31  2020-09-19-14:38:20  2021-02-07-08:54:44  2021-07-04-19:03:04
+[36mmkeith[0m@[33mhulk[0m$ tm[Kempo2 -gr plk -f J1801-2920.par ca[Kombined.tim 
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under conditions of GPL license.
+
+Looking for /packages/pulsarsoft/versions/2021-06-18/share/tempo2/plugins//plk_x86_64_nitrogen_plug.t2
+Graphical Interface: plk emulator
+Authors:             George Hobbs, J. Verbiest (v4. 3 Aug 2007)
+CVS Version:         $Revision: 1.61 $
+ --- type 'h' for help information
+[0m[1m[tempo2Util.C:396] [0m[0;35mWarning: [0m[MISC1] Unknown parameter in par file:  RM
+[0m[1m[tempo2Util.C:401] [0m[0;35mWarning: [0m[DUP1] duplicated warnings have been suppressed.
+[0m[1m[tempo2Util.C:396] [0m[0;35mWarning: [0m[PAR2] Have not set a DM epoch. The period epoch will be used instead. J
+1801-2920.par
+[0m[1m[tempo2Util.C:396] [0m[0;35mWarning: [0m[CLK10] MJD is outside of UT1 table range  (MJD 59428.743707)
+[TKfit.C:273] QR nparams=1 nconst=0 ndata=20
+
+
+Results for PSR J1801-2920
+
+
+RMS pre-fit residual = 68094.161 (us), RMS post-fit residual = 68094.161 (us)
+Number of fit parameters: 1
+Number of points in fit = 20
+Offset: -0 0.0156219 offset_e*sqrt(n) = 0.0698631 n = 20
+[7m--More--(5%)[27m[K
+
+PARAMETER       Pre-fit                   Post-fit                  Uncertainty   Difference   Fit
+---------------------------------------------------------------------------------------------------
+RAJ (rad)       4.72015824082789          4.72015824082789          0             0             N
+RAJ (hms)       18:01:46.835              18:01:46.835              0             0            
+DECJ (rad)      -0.512150385332578        -0.512150385332578        0             0             N
+DECJ (dms)      -29:20:38.6               -29:20:38.6               0             0            
+F0 (s^-1)       0.924292603138            0.924292603138            0             0             N
+F1 (s^-2)       -2.81335e-15              -2.81335e-15              0             0             N
+F2 (s^-3)       -1.86e-26                 -1.86e-26                 0             0             N
+PEPOCH (MJD)    50549                     50549                     0             0             N
+POSEPOCH (MJD)  50549                     50549                     0             0             N
+DMEPOCH (MJD)   50549                     50549                     0             0             N
+DM (cm^-3 pc)   125.613                   125.613                   0             0             N
+START (MJD)     0                         58755.5489235618          0             58756         N
+FINISH (MJD)    0                         59428.7437073034          0             59429         N
+TZRMJD          0                         59084.6888504391          0             59085         N
+TZRFRQ (MHz)    0                         1282.940166               0             1282.9        N
+TZRSITE         meerkat                  
+TRES            0                         68094.1610072649          0             68094         N
+EPHVER          TEMPO2                    TEMPO2                    0             0             N
+DM_SERIES       TAYLOR                   
+---------------------------------------------------------------------------------------------------
+
+Derived parameters:
+
+P0 (s)      = 1.08190847422664          0            
+P1          = 3.2930991718767e-15       0            
+tau_c (Myr) = 5.2089
+bs (G)      = 1.9101e+12
+
+Braking index derived from F0,F1,F2 -2172.075
+[7m--More--(12%)[27mTotal time span = 673.195 days = 1.843 years
+
+Tempo2 usage
+Units:                 TDB (tempo1)
+Time ephemeris:        IF99 (tempo2)
+Troposphere corr.?     No (tempo1)
+Dilate freq?           Yes (tempo2)
+Electron density (1AU) 4
+Solar system ephem     DE405
+Time scale             TT(TAI)
+Binary model           NONE
+[0m[0;35mNotice:[0m There were 4 warnings. Summaries are shown below, check logs for full details.
+[0m[1mWarning #1:[0m [MISC1] Unknown parameter in par file:  RM
+[0m[1mWarning #2:[0m [DUP1] duplicated warnings have been suppressed.
+[0m[1mWarning #3:[0m [PAR2] Have not set a DM epoch. The period epoch will be used instead. J1801-2920.par
+[0m[1mWarning #4:[0m [CLK10] MJD is outside of UT1 table range  (MJD 59428.743707)
+Setting offset in menu to be 0
+Setting offset in menu to be 0
+Setting offset in menu to be 0
+Setting offset in menu to be 0
+Redoing the fit -1 (58755.5 0 1)
+[TKfit.C:273] QR nparams=2 nconst=0 ndata=20
+
+
+Results for PSR J1801-2920
+
+
+RMS pre-fit residual = 68094.161 (us), RMS post-fit residual = 1069.918 (us)
+Number of fit parameters: 2
+Number of points in fit = 20
+Offset: 3.09102 0.0114516 offset_e*sqrt(n) = 0.051213 n = 20
+
+
+[7m--More--(16%)[27mPARAMETER       Pre-fit                   Post-fit                  Uncertainty   Difference   Fit
+---------------------------------------------------------------------------------------------------
+RAJ (rad)       4.72015824082789          4.72015824082789          0             0             N
+RAJ (hms)       18:01:46.835              18:01:46.835              0             0            
+DECJ (rad)      -0.512150385332578        -0.512150385332578        0             0             N
+DECJ (dms)      -29:20:38.6               -29:20:38.6               0             0            
+F0 (s^-1)       0.924292603138            0.924292606988565         1.4262e-11    3.8506e-09    Y
+F1 (s^-2)       -2.81335e-15              -2.81335e-15              0             0             N
+F2 (s^-3)       -1.86e-26                 -1.86e-26                 0             0             N
+PEPOCH (MJD)    50549                     50549                     0             0             N
+POSEPOCH (MJD)  50549                     50549                     0             0             N
+DMEPOCH (MJD)   50549                     50549                     0             0             N
+DM (cm^-3 pc)   125.613                   125.613                   0             0             N
+START (MJD)     58755.5489235618          58755.5489235618          0             0             N
+FINISH (MJD)    59428.7437073034          59428.7437073034          0             0             N
+TZRMJD          59084.6888504391          59084.6888506554          0             2.1632e-07    N
+TZRFRQ (MHz)    1282.940166               1282.940166               0             0             N
+TZRSITE         meerkat                  
+TRES            68094.1610072649          1069.91821873592          0             -67024        N
+EPHVER          TEMPO2                    TEMPO2                    0             0             N
+DM_SERIES       TAYLOR                   
+---------------------------------------------------------------------------------------------------
+
+Derived parameters:
+
+P0 (s)      = 1.08190846971945          1.6694e-11   
+P1          = 3.29309914443887e-15      1.0163e-25   
+tau_c (Myr) = 5.2089
+bs (G)      = 1.9101e+12
+
+Braking index derived from F0,F1,F2 -2172.075
+Total time span = 673.195 days = 1.843 years
+
+[7m--More--(23%)[27mTempo2 usage[K
+Units:                 TDB (tempo1)
+Time ephemeris:        IF99 (tempo2)
+Troposphere corr.?     No (tempo1)
+Dilate freq?           Yes (tempo2)
+Electron density (1AU) 4
+Solar system ephem     DE405
+Time scale             TT(TAI)
+Binary model           NONE
+
+[0m[1m[textOutput.C:1624] [0m[0;35mWarning: [0mThere are output parameters with very high covariance
+                  F0        param_ZERO(0) -0.99976
+[0m[0;35mNotice:[0m There were 1 warnings. Summaries are shown below, check logs for full details.
+[0m[1mWarning #1:[0m There are output parameters with very high covariance
+Setting offset in menu to be 0
+Setting offset in menu to be 0
+Redoing the fit -1 (58755.5 0 1)
+[TKfit.C:273] QR nparams=3 nconst=0 ndata=20
+
+
+Results for PSR J1801-2920
+
+
+RMS pre-fit residual = 1069.918 (us), RMS post-fit residual = 158.435 (us)
+Number of fit parameters: 3
+Number of points in fit = 20
+Offset: -2.15678 0.0783437 offset_e*sqrt(n) = 0.350364 n = 20
+
+
+PARAMETER       Pre-fit                   Post-fit                  Uncertainty   Difference   Fit
+---------------------------------------------------------------------------------------------------
+RAJ (rad)       4.72015824082789          4.72015824082789          0             0             N
+RAJ (hms)       18:01:46.835              18:01:46.835              0             0            
+[7m--More--(27%)[27mDECJ (rad)      -0.512150385332578        -0.512150385332578        0             0             N
+DECJ (dms)      -29:20:38.6               -29:20:38.6               0             0            
+F0 (s^-1)       0.924292606988565         0.924292601595824         1.9585e-10    -5.3927e-09   Y
+F1 (s^-2)       -2.81335e-15              -2.80605951196507e-15     2.6476e-19    7.2905e-18    Y
+F2 (s^-3)       -1.86e-26                 -1.86e-26                 0             0             N
+PEPOCH (MJD)    50549                     50549                     0             0             N
+POSEPOCH (MJD)  50549                     50549                     0             0             N
+DMEPOCH (MJD)   50549                     50549                     0             0             N
+DM (cm^-3 pc)   125.613                   125.613                   0             0             N
+START (MJD)     58755.5489235618          58755.5489235618          0             0             N
+FINISH (MJD)    59428.7437073034          59428.7437073034          0             0             N
+TZRMJD          59084.6888506554          59084.6888506676          0             1.2209e-08    N
+TZRFRQ (MHz)    1282.940166               1282.940166               0             0             N
+TZRSITE         meerkat                  
+TRES            1069.91821873592          158.434583017637          0             -911.48       N
+EPHVER          TEMPO2                    TEMPO2                    0             0             N
+DM_SERIES       TAYLOR                   
+---------------------------------------------------------------------------------------------------
+
+Derived parameters:
+
+P0 (s)      = 1.08190847603179          2.2925e-10   
+P1          = 3.28456547742897e-15      3.099e-19    
+tau_c (Myr) = 5.2225
+bs (G)      = 1.9076e+12
+
+Braking index derived from F0,F1,F2 -2183.377
+Total time span = 673.195 days = 1.843 years
+
+Tempo2 usage
+Units:                 TDB (tempo1)
+Time ephemeris:        IF99 (tempo2)
+Troposphere corr.?     No (tempo1)
+[7m--More--(34%)[27mDilate freq?           Yes (tempo2)
+Electron density (1AU) 4
+Solar system ephem     DE405
+Time scale             TT(TAI)
+Binary model           NONE
+
+[0m[1m[textOutput.C:1624] [0m[0;35mWarning: [0mThere are output parameters with very high covariance
+                  F0        param_ZERO(0) -0.99994
+                  F1        param_ZERO(0) +0.99975
+                  F1                   F0 -0.99994
+[0m[0;35mNotice:[0m There were 1 warnings. Summaries are shown below, check logs for full details.
+[0m[1mWarning #1:[0m There are output parameters with very high covariance
+Setting offset in menu to be 0
+
+
+Results for PSR J1801-2920
+
+
+RMS pre-fit residual = 1069.918 (us), RMS post-fit residual = 158.435 (us)
+Number of fit parameters: 3
+Number of points in fit = 20
+Offset: -2.15678 0.0783437 offset_e*sqrt(n) = 0.350364 n = 20
+
+
+PARAMETER       Pre-fit                   Post-fit                  Uncertainty   Difference   Fit
+---------------------------------------------------------------------------------------------------
+RAJ (rad)       4.72015824082789          4.72015824082789          0             0             N
+RAJ (hms)       18:01:46.835              18:01:46.835              0             0            
+DECJ (rad)      -0.512150385332578        -0.512150385332578        0             0             N
+DECJ (dms)      -29:20:38.6               -29:20:38.6               0             0            
+F0 (s^-1)       0.924292606988565         0.924292601595824         1.9585e-10    -5.3927e-09   Y
+F1 (s^-2)       -2.81335e-15              -2.80605951196507e-15     2.6476e-19    7.2905e-18    Y
+F2 (s^-3)       -1.86e-26                 -1.86e-26                 0             0             N
+[7m--More--(39%)[27mPEPOCH (MJD)    50549                     50549                     0             0             N
+POSEPOCH (MJD)  50549                     50549                     0             0             N
+DMEPOCH (MJD)   50549                     50549                     0             0             N
+DM (cm^-3 pc)   125.613                   125.613                   0             0             N
+START (MJD)     58755.5489235618          58755.5489235618          0             0             N
+FINISH (MJD)    59428.7437073034          59428.7437073034          0             0             N
+TZRMJD          59084.6888506554          59084.6888506676          0             1.2209e-08    N
+TZRFRQ (MHz)    1282.940166               1282.940166               0             0             N
+TZRSITE         meerkat                  
+TRES            1069.91821873592          158.434583017637          0             -911.48       N
+EPHVER          TEMPO2                    TEMPO2                    0             0             N
+DM_SERIES       TAYLOR                   
+---------------------------------------------------------------------------------------------------
+
+Derived parameters:
+
+P0 (s)      = 1.08190847603179          2.2925e-10   
+P1          = 3.28456547742897e-15      3.099e-19    
+tau_c (Myr) = 5.2225
+bs (G)      = 1.9076e+12
+
+Braking index derived from F0,F1,F2 -2183.377
+Total time span = 673.195 days = 1.843 years
+
+Tempo2 usage
+Units:                 TDB (tempo1)
+Time ephemeris:        IF99 (tempo2)
+Troposphere corr.?     No (tempo1)
+Dilate freq?           Yes (tempo2)
+Electron density (1AU) 4
+Solar system ephem     DE405
+Time scale             TT(TAI)
+Binary model           NONE
+[7m--More--(44%)[27mIn here writing a new parameter file: 
+Enter filename for new parameter file new.par
+
+[0m[1m[textOutput.C:1624] [0m[0;35mWarning: [0mThere are output parameters with very high covariance
+                  F0        param_ZERO(0) -0.99994
+                  F1        param_ZERO(0) +0.99975
+                  F1                   F0 -0.99994
+[0m[0;35mNotice:[0m There were 1 warnings. Summaries are shown below, check logs for full details.
+[0m[1mWarning #1:[0m There are output parameters with very high covariance
+[36mmkeith[0m@[33mhulk[0m$ ls
+2019-09-29-13:08:49  2020-05-30-23:44:53  2020-10-17-16:19:33  2021-03-02-03:12:01  2021-08-02-17:49:05
+2019-12-16-10:45:51  2020-06-25-21:50:15  2020-11-16-13:15:21  2021-04-07-00:58:34  combined.tim
+2020-02-24-03:32:12  2020-07-25-18:17:17  2020-12-12-08:16:21  2021-05-03-23:07:04  J1801-2920.par
+2020-03-29-04:09:18  2020-08-23-16:30:04  2021-01-11-06:57:19  2021-06-03-21:00:34  new.par
+2020-05-08-00:55:31  2020-09-19-14:38:20  2021-02-07-08:54:44  2021-07-04-19:03:04  time.log
+[36mmkeith[0m@[33mhulk[0m$ more new.par 
+PSRJ           J1801-2920
+RAJ            18:01:46.835                
+DECJ           -29:20:38.6                 
+F0             0.92429260159582404252    1  0.00000000019585101601   
+F1             -2.8060595119650719097e-15 1  2.6475621967779676939e-19
+F2             -1.86e-26                    1.6e-27                  
+PEPOCH         50549                       
+POSEPOCH       50549                       
+DMEPOCH        50549                       
+DM             125.613                      0.01400000000000000000   
+START          58755.548923561797078       
+FINISH         59428.743707303371433       
+TZRMJD         59084.688850667632231       
+TZRFRQ         1282.9401660000000902    
+TZRSITE        meerkat   
+TRES           158.435      
+EPHVER         5                           
+[7m--More--(50%)[27mCLK            TT(TAI)
+UNITS          TDB
+TIMEEPH        IF99
+DILATEFREQ     Y
+PLANET_SHAPIRO Y
+T2CMETHOD      TEMPO
+NE_SW          4.000
+CORRECT_TROPOSPHERE  N
+EPHEM          DE405
+NITS           1
+NTOA           20
+CHI2R          0.0000 17
+[36mmkeith[0m@[33mhulk[0m$ [K[36mmkeith[0m@[33mhulk[0m$ [K[36mmkeith[0m@[33mhulk[0m$ [K[36mmkeith[0m@[33mhulk[0m$ [K[36mmkeith[0m@[33mhulk[0m$ [K[36mmkeith[0m@[33mhulk[0m$ [K[36mmkeith[0m@[33mhulk[0m$ [K[36mmkeith[0m@[33mhulk[0m$ [K[36mmkeith[0m@[33mhulk[0m$ [K[36mmkeith[0m@[33mhulk[0m$ [K[36mmkeith[0m@[33mhulk[0m$ te [Kmpo2 -gr transform -f new.par tcb.par
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under conditions of GPL license.
+
+Looking for /packages/pulsarsoft/versions/2021-06-18/share/tempo2/plugins//transform_x86_64_nitrogen_plug.t2
+Graphical Interface: transform
+Author:              George Hobbs
+Version:             1
+Transforms parameter files from old format to new format
+ERROR [FILE3]: Unable to open parfile -f for pulsar 0
+[36mmkeith[0m@[33mhulk[0m$ tempo2 -gr transform -f new.par tcb.par[1P[1P[1P
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under conditions of GPL license.
+
+Looking for /packages/pulsarsoft/versions/2021-06-18/share/tempo2/plugins//transform_x86_64_nitrogen_plug.t2
+Graphical Interface: transform
+Author:              George Hobbs
+Version:             1
+Transforms parameter files from old format to new format
+[7m--More--(55%)[27m[K[36mmkeith[0m@[33mhulk[0m$ [K[36mmkeith[0m@[33mhulk[0m$ [K[36mmkeith[0m@[33mhulk[0m$ pwd
+/local/scratch/mkeith/mt_timing/J1801-2920
+[36mmkeith[0m@[33mhulk[0m$ more ~/[K[K[K[K[K[K[Kcd
+[36mmkeith[0m@[33mhulk[0m$ more .bashrc 
+
+#PROMPT
+export PS1="\[\033[36m\]\u\[\033[0m\]@\[$ARCH_COLOUR\]\h\[\033[0m\]$ "
+
+
+# History search
+bind '"\033[A":history-search-backward'
+bind '"\033[B":history-search-forward'
+
+
+[36mmkeith[0m@[33mhulk[0m$ more .bashrc [K[K[K_login
+.bash_login: No such file or directory
+[36mmkeith[0m@[33mhulk[0m$ more .bash_login[K[K[K[K[K[Krc
+
+#PROMPT
+export PS1="\[\033[36m\]\u\[\033[0m\]@\[$ARCH_COLOUR\]\h\[\033[0m\]$ "
+
+
+# History search
+bind '"\033[A":history-search-backward'
+bind '"\033[B":history-search-forward'
+
+
+[36mmkeith[0m@[33mhulk[0m$ 
+[36mmkeith[0m@[33mhulk[0m$ more .p[Kbash_profile 
+
+if [[ -d /usr/local/cuda ]] ; then
+export PATH=${PATH}:/usr/local/cuda/bin
+fi
+
+# PULSAR LOGIN SCRIPTS
+psrlogin=/packages/pulsarsoft/current_version/login/psr.bashrc
+if [[ $(stat --printf=%g /packages/pulsarsoft) -eq 600 ]] ; then
+    . $psrlogin
+fi
+
+if [[ $(hostname) =~ "hulk" ]] ; then
+    export builddir=/local/scratch/mkeith/src
+fi
+
+
+if [[ $(hostname) =~ "windmill" ]] ; then
+    export builddir=/local/mkeith/build
+fi
+
+
+
+if [[ "$LOGIN_ARCH" =~ "nitrogen" ]] ; then
+    shopt -s direxpand 
+fi
+
+
+# END OF PULSAR LOGIN SCRIPTS
+
+
+# Mkeith custom login stuff below
+# ===============================
+
+[7m--More--(41%)[27m[K
+#PROMPT
+export PS1="\[\033[36m\]\u\[\033[0m\]@\[$ARCH_COLOUR\]\h\[\033[0m\]$ "
+
+
+# History search
+bind '"\033[A":history-search-backward'
+bind '"\033[B

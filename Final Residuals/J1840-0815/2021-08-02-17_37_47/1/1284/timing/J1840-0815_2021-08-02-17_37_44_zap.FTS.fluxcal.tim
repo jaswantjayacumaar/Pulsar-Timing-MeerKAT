@@ -1,0 +1,2 @@
+FORMAT 1
+/fred/oz005/users/aparthas/reprocessing_MK/TPA/J1840-0815/2021-08-02-17:37:47/1/1284/decimated/J1840-0815_2021-08-02-17:37:44_zap.FTS.fluxcal.ar 1266.652738 59428.735864635683793  42.950  meerkat  -fe KAT -be MKBF -f KAT_MKBF -bw 775.8 -tobs 229 -tmplt /fred/oz005/users/aparthas/reprocessing_MK/TPA/TPA_Census/tpa_templates/J1840-0815.std -gof 1.03 -nbin 1024 -nch 1024 -chan 0 -rcvr KAT -snr 253.64 -length 228.998505271027 -subint 0
