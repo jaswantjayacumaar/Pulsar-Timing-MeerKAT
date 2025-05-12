@@ -23,7 +23,7 @@ The **Enterprise** Python package is used for Bayesian analysis. This analysis p
 
 ### Step 3: **Fitwaves Analysis**
 
-Using the **PSRSALSA** package, the **Fitwaves** method is applied to pulsar timing data, specifically focusing on MeerKAT observations due to its high cadence.
+Using the **psrsalsa** package, the **Fitwaves** method is applied to pulsar timing data, specifically focusing on MeerKAT observations due to its high cadence.
 
 ### Step 4: **Plot Generation**
 
@@ -53,7 +53,7 @@ Custom Python scripts are used to generate residuals and nudot plots for visuali
    git clone https://github.com/jaswantjayacumaar/Pulsar-Timing-MeerKAT.git
    ```
 
-2. Install the required dependencies for **TEMPO2**, **Enterprise**, and **PSRSALSA** as outlined in their respective documentation.
+2. Install the required dependencies for **TEMPO2**, **run_enterprise**, and **psrsalsa** as outlined in their respective documentation.
 
 ---
 
