@@ -1,0 +1,2 @@
+FORMAT 1
+/fred/oz005/users/aparthas/reprocessing_MK/TPA/J1929+1955/2020-08-03-21:47:46/2/816/decimated/J1929+1955_2020-08-03-21:47:44_zap.FTS.ar 812.670880 59064.909592103422240  75.884  meerkat  -fe KAT -be MKBF -f KAT_MKBF -bw 544 -tobs 249.21 -tmplt /fred/oz005/users/aparthas/reprocessing_MK/TPA/TPA_Census/tpa_templates/J1929+1955.std -gof 1.13 -nbin 1024 -nch 1024 -chan 0 -rcvr KAT -snr 68.855 -length 249.207382588236 -subint 0

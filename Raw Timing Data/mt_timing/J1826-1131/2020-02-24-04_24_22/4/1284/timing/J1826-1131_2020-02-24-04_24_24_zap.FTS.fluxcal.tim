@@ -1,0 +1,2 @@
+FORMAT 1
+/fred/oz005/users/aparthas/reprocessing_MK/TPA/J1826-1131/2020-02-24-04:24:22/4/1284/decimated/J1826-1131_2020-02-24-04:24:24_zap.FTS.fluxcal.ar 1278.595367 58903.187790950259681  63.383  meerkat  -fe KAT -be MKBF -f KAT_MKBF -bw 775.8 -tobs 728 -tmplt /fred/oz005/users/aparthas/reprocessing_MK/TPA/TPA_Census/tpa_templates/J1826-1131.std -gof 1.08 -nbin 1024 -nch 1024 -chan 0 -rcvr KAT -snr 243.81 -length 728.000000000001 -subint 0

@@ -1,0 +1,33 @@
+PSRJ           B1841-05
+RAJ            18:44:05.1201840             4.6228918217791287085e-4932
+DECJ           -05:38:34.31785             
+F0             3.9108096078059251966     1  0.00000000004744144604   
+F1             -1.4845204946298894879e-13 1  3.1031425149770884627e-19
+F2             6.5972979446439813827e-26   
+PEPOCH         52243.135011172876737       
+POSEPOCH       52243.135011172876737       
+DMEPOCH        52243.135011172876737       
+DM             412.79542835525602293       
+START          46269.845504059242          
+FINISH         58216.424518286511478       
+TRACK          -2                          
+TZRMJD         52275.669101340957013       
+TZRFRQ         1396                     
+TZRSITE        jbafb   
+TRES           60497.420    
+EPHVER         5                           
+NE_SW          4                           
+CLK            TT(TAI)
+MODE 1
+UNITS          TCB
+TIMEEPH        IF99
+DILATEFREQ     Y
+PLANET_SHAPIRO Y
+T2CMETHOD      IAU2000B
+NE_SW          4.000
+CORRECT_TROPOSPHERE  Y
+EPHEM          DE436
+NITS           1
+NTOA           475
+CHI2R          287958.8643 472
+JUMP -be jbdfb 0 0

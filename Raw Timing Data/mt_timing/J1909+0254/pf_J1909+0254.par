@@ -1,0 +1,30 @@
+PSRJ           J1909+0254
+ELONG          289.2828700000000000380762089   
+ELAT           25.1954399999999999991417976   
+F0             1.0102732772001741493     1  0.00000000025850915846   
+F1             -5.6713317087485261282e-15 1  3.1665315420433988866e-19
+F2             7.4099999999999999998e-26    9.0000000000000000003e-28
+PEPOCH         49695                       
+POSEPOCH       49695                       
+DMEPOCH        49695                       
+DM             171.734                      0.00900000000000000000   
+PMELONG        1                            10.00000000000000000000  
+START          58802.772436663603685       
+FINISH         59428.767063125250179       
+TZRMJD         59117.68903547586741        
+TZRFRQ         1268.4010299999999916    
+TZRSITE        meerkat   
+TRES           139.152      
+EPHVER         2                           
+NE_SW          9.9610000000000000001       
+CLK            TT(TAI)
+UNITS          TDB
+TIMEEPH        FB90
+DILATEFREQ     N
+PLANET_SHAPIRO N
+T2CMETHOD      TEMPO
+CORRECT_TROPOSPHERE  N
+EPHEM          DE405
+NITS           1
+NTOA           17
+CHI2R          0.0000 14

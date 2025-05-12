@@ -1,0 +1,37 @@
+PSRJ           B1744-24A
+RAJ            17:48:02.2523953             6.3039433933351746003e-4932
+DECJ           -24:46:37.70631             
+F0             86.481635564565062325     1  0.00000000006453529405   
+F1             1.2637942856149641087e-16 1  5.2720234283359806466e-19
+PEPOCH         53063                        0.00000000095924371487   
+POSEPOCH       53063                        0.00000000095924371487   
+DMEPOCH        53063                        0.00000000095924370000   
+DM             242.32161453852586842       
+DM1            0.013647139100007175666     
+BINARY         BT
+PB             0.07564611616439798664      
+T0             48270.030046448113225       
+A1             0.11959553174555435102      
+START          47952.208803921512999       
+FINISH         58175.378496726234914       
+TRACK          -2                          
+TZRMJD         53060.231053559166348       
+TZRFRQ         1396                     
+TZRSITE        jbafb   
+TRES           3023.636     
+EPHVER         5                           
+NE_SW          4                           
+CLK            TT(TAI)
+MODE 1
+UNITS          TCB
+TIMEEPH        IF99
+DILATEFREQ     Y
+PLANET_SHAPIRO Y
+T2CMETHOD      IAU2000B
+NE_SW          4.000
+CORRECT_TROPOSPHERE  Y
+EPHEM          DE436
+NITS           1
+NTOA           452
+CHI2R          41625.5114 449
+JUMP -be jbdfb 0 1

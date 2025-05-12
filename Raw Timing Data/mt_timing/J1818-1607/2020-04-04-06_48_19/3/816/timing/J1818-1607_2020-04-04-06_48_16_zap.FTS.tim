@@ -1,0 +1,2 @@
+FORMAT 1
+/fred/oz005/users/aparthas/reprocessing_MK/TPA/J1818-1607/2020-04-04-06:48:19/3/816/decimated/J1818-1607_2020-04-04-06:48:16_zap.FTS.ar 812.562870 58943.307855605369464 6205.589  meerkat  -fe KAT -be MKBF -f KAT_MKBF -bw 544 -tobs 4197 -tmplt /fred/oz005/users/aparthas/reprocessing_MK/TPA/TPA_Census/tpa_templates/J1818-1607.std -gof 110 -nbin 1024 -nch 1024 -chan 0 -rcvr KAT -snr 14.968 -length 4196.98901647059 -subint 0
