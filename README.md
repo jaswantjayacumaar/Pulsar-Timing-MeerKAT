@@ -33,8 +33,10 @@ Custom Python scripts are used to generate residuals and nudot plots for visuali
 
 ## Requirements
 
+Install the following packages:
+
 * **TEMPO2** and **TEMPO3**: A package for pulsar timing analysis.
-* **run_nterprise**: A package for Bayesian analysis in pulsar timing.
+* **run_enterprise**: A package for Bayesian analysis in pulsar timing.
 * **psrsalsa**: A tool for pulsar timing analysis (used for Fitwaves).
 * **Python 3** with the following dependencies:
 
