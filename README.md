@@ -86,6 +86,15 @@ tempo2 -gr transform old_filename.par new_filename.par
 
 ### Bayesian Analysis
 
+**Note:** Before running the scripts, make sure to `cd` into the project directory containing the dataset and script files. All paths are relative to that working directory.
+
+
+In this case, navigate to the appropriate subdirectory using:
+
+```bash
+cd /Bayesian\ Analysis/Bayesian_min_Gamma_4/JBO/J1801-2920
+```
+
 1. Begin the Bayesian analysis with the final `.par` and `.tim` files:
 
 ```bash
@@ -118,6 +127,14 @@ tempo2 -gr plk -f final_J1801-2920.par.post J1801-2920_jbo.tim
 
 ### Fitwaves Analysis
 
+**Note:** Before running the scripts, make sure to `cd` into the project directory containing the dataset and script files. All paths are relative to that working directory.
+
+In this case, navigate to the appropriate subdirectory using:
+
+```bash
+cd /Fitwaves\ Analysis/MeerKAT_Timing/J2048-1616
+```
+
 1. Create a barycentric time file (`bary.tim`):
 
 ```bash
@@ -138,7 +155,7 @@ python nudot.from.tempo3.py -e final_J2048-1616.par -m macrofile.fit -b bary.tim
 
 ```bash
 # Plot the nudot vs. time for the pulsar
-python plot.nudot.tempo3.py -F1 nudot.full.sample.txt -mjd MJDS.txt -p J1801-2920
+python plot.nudot.tempo3.py -F1 nudot.full.sample.txt -mjd MJDS.txt -p J2048-1616
 ```
 
 5. Save the initial file and zoom in for a more precise view.
@@ -165,12 +182,12 @@ for i in iteration.*.par ; do echo -n "$i " ; tempo2 -f $i $(basename $i .par).t
 
 ```bash
 # Extract residuals for Jodrell Bank data
-tempo2 -output general2 -f final2*.par J1913-0440.tim -s '{bat} {post} {err} {clkchain}\n' | grep JB | awk '{print $1,$2,$3}'  > jb_res.txt
+tempo2 -output general2 -f final2*.par J2048-1616.tim -s '{bat} {post} {err} {clkchain}\n' | grep JB | awk '{print $1,$2,$3}'  > jb_res.txt
 ```
 
 ```bash
 # Extract residuals for MeerKAT data
-tempo2 -output general2 -f final2*.par J1913-0440.tim -s '{bat} {post} {err} {clkchain}\n' | grep 'meerkat->' | awk '{print $1,$2,$3}' > mk_res.txt
+tempo2 -output general2 -f final2*.par J2048-1616.tim -s '{bat} {post} {err} {clkchain}\n' | grep 'meerkat->' | awk '{print $1,$2,$3}' > mk_res.txt
 ```
 
 3. Copy both `jb_res.txt` and `mk_res.txt`.
