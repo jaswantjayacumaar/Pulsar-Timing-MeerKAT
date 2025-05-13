@@ -1,0 +1,39 @@
+PSRJ           J1945-0040
+RAJ            19:45:28.3900000            
+DECJ           -00:40:58.10000             
+F0             0.95635899701092033111    1  0.00000001704887248249   
+F1             -5.0082933663448477508e-16 1  1.7927416337045696114e-17
+F2             5.2999997534673607555e-29    3.999999813937630759e-28 
+PEPOCH         48103.000076890270698       
+POSEPOCH       48103.000076890270698       
+DMEPOCH        48103                       
+DM             59.710002777446146042        0.06000000279093566844   
+START          58774.710715155738562       
+FINISH         59446.003976797557005       
+TZRMJD         59117.775876278709983       
+TZRFRQ         1274.0141049999999723    
+TZRSITE        meerkat   
+TRES           3048.652     
+EPHVER         5                           
+NE_SW          4                           
+CLK            TT(TAI)
+MODE 1
+UNITS          TCB
+TIMEEPH        IF99
+DILATEFREQ     Y
+PLANET_SHAPIRO Y
+T2CMETHOD      IAU2000B
+CORRECT_TROPOSPHERE  Y
+EPHEM          DE440
+NITS           1
+NTOA           25
+CHI2R          0.7475 21
+JUMP -be jbdfb 0.020395527177187 1
+TNEF -be MKBF 0.635877
+TNEF -be jbdfb 0.298767
+TNEQ -be MKBF -3.40002
+TNEQ -be jbdfb -2.786
+TNRedAmp -9.3255
+TNRedGam 3.9561
+TNRedC 120
+TNRedFLow -0.30103
