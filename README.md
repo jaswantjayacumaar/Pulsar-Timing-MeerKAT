@@ -1,5 +1,3 @@
-# Pulsar-Timing-MeerKAT
-
 # Pulsar Timing and ν˙ Variations Analysis
 
 ## Project Overview
